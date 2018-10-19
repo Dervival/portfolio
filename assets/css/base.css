@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    background: #fff;
+    background: #eee;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 19pt;
     font-weight: 300;
@@ -353,7 +353,7 @@ br.clear {
 }
 
     .item header {
-        background: #fff;
+        background: #eee;
         margin: 0;
         padding: 1em 0 1em 0;
         font-size: 0.8em;
@@ -427,12 +427,12 @@ br.clear {
             }
 
             #main > section.dark strong {
-                color: #fff;
+                color: #eee;
                 border-color: inherit;
             }
 
             #main > section.dark a {
-                color: #fff;
+                color: #eee;
                 border-color: inherit;
             }
 

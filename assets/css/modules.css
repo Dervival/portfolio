@@ -243,6 +243,7 @@ form ::-moz-focus-inner {
         color: rgba(255, 255, 255, 0.5);
         line-height: 1.25em;
         margin: 0.5em 0 0 0;
+        font-family: 'Roboto Condensed', sans-serif;
     }
 
     #logo .image {

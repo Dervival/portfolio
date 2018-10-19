@@ -105,8 +105,8 @@ form textarea {
     display: block;
     border: 0;
     outline: 0;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.75);
+    background: #eee;
+    background: rgba(239, 239, 239, 0.75);
     width: 100%;
     border-radius: 0.35em;
     padding: 0.75em 1em 0.75em 1em;
@@ -124,7 +124,7 @@ form textarea {
     form select:focus,
     form textarea:focus {
         box-shadow: 0 0 2px 1px #8ebebc;
-        background: #fff;
+        background: #eee;
     }
 
 form input[type="text"],
@@ -175,7 +175,7 @@ form ::-moz-focus-inner {
     justify-content: space-between;
     background: #222629 url("images/overlay.png");
     box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
-    color: #fff;
+    color: #eee;
     height: 100%;
     left: 0;
     overflow-y: auto;
@@ -218,7 +218,7 @@ form ::-moz-focus-inner {
         }
 
             #header .icons a:hover {
-                color: #fff;
+                color: #eee;
             }
 
 #logo {
@@ -230,7 +230,7 @@ form ::-moz-focus-inner {
 
     #logo h1 {
         position: relative;
-        color: #fff;
+        color: #eee;
         font-weight: 600;
         font-size: 1em;
         line-height: 1em;
@@ -240,9 +240,10 @@ form ::-moz-focus-inner {
         position: relative;
         display: block;
         font-size: 0.6em;
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(239, 239, 239, 0.5);
         line-height: 1.25em;
         margin: 0.5em 0 0 0;
+        font-family: 'Roboto Condensed', sans-serif;
     }
 
     #logo .image {
@@ -264,7 +265,7 @@ form ::-moz-focus-inner {
         #nav ul li a {
             display: block;
             padding: 0.5em 1.5em 0.5em 1.5em;
-            color: rgba(255, 255, 255, 0.5);
+            color: rgba(239, 239, 239, 0.5);
             text-decoration: none;
             outline: 0;
             border: 0;
@@ -292,7 +293,7 @@ form ::-moz-focus-inner {
             #nav ul li a.active {
                 background: rgba(0, 0, 0, 0.15);
                 box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-                color: #fff;
+                color: #eee;
             }
 
                 #nav ul li a.active span:before {
@@ -371,7 +372,7 @@ form ::-moz-focus-inner {
             }
 
             #header .bottom {
-                border-top: solid 1px rgba(255, 255, 255, 0.05);
+                border-top: solid 1px rgba(239, 239, 239, 0.05);
                 box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.15);
                 padding-top: 2em;
                 margin-top: 2em;
@@ -422,7 +423,7 @@ form ::-moz-focus-inner {
                     -webkit-font-smoothing: antialiased;
                     -moz-osx-font-smoothing: grayscale;
                     content: '\f0c9';
-                    color: #fff;
+                    color: #eee;
                     font-size: 18px;
                     line-height: 2.25em;
                     background: rgba(128, 136, 144, 0.5);

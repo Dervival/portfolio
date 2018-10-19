@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    background: #fff;
+    background: #eee;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 19pt;
     font-weight: 300;
@@ -86,6 +86,7 @@ header {
 
     header > p {
         margin: 1em 0 0 0;
+        font-family: 'Ubuntu Mono', monospace;
     }
 
 footer {
@@ -164,6 +165,10 @@ br.clear {
         .container {
             padding: 0 2em 0 2em;
         }
+            .container > p {
+                font-family: 'Poiret One', cursive;
+                font-weight: bold;
+            }
     }
 
     #headerToggle {
@@ -187,6 +192,10 @@ br.clear {
         .container {
             padding: 0 2em 0 2em;
         }
+            .container > p {
+                font-family: 'Poiret One', cursive;
+                font-weight: bold;
+            }
 
     }
 
@@ -205,6 +214,11 @@ br.clear {
         .container {
             padding: 0 15px 0 15px;
         }
+            
+            .container > p {
+                font-family: 'Poiret One', cursive;
+                font-weight: bold;
+            }
     }
 
 
@@ -215,12 +229,20 @@ br.clear {
     max-width: 100%;
     width: 1400px;
 }
+    .container > p {
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+    }
 
     @media screen and (min-width: 961px) and (max-width: 1880px) {
 
         .container {
             width: 1200px;
         }
+            .container > p {
+                font-family: 'Poiret One', cursive;
+                font-weight: bold;
+            }
 
     }
 
@@ -229,6 +251,10 @@ br.clear {
         .container {
             width: 960px;
         }
+            .container > p {
+                font-family: 'Poiret One', cursive;
+                font-weight: bold;
+            }
 
     }
 
@@ -237,6 +263,10 @@ br.clear {
         .container {
             width: 100%;
         }
+            .container > p {
+                font-family: 'Poiret One', cursive;
+                font-weight: bold;
+            }
 
     }
 
@@ -246,6 +276,11 @@ br.clear {
             width: 100%;
         }
 
+            .container > p {
+                font-family: 'Poiret One', cursive;
+                font-weight: bold;
+            }
+
     }
 
     @media screen and (max-width: 736px) {
@@ -253,7 +288,11 @@ br.clear {
         .container {
             width: 100%;
         }
-
+        
+            .container > p {
+                font-family: 'Poiret One', cursive;
+                font-weight: bold;
+            }
     }
 
 /* Image */
@@ -314,7 +353,7 @@ br.clear {
 }
 
     .item header {
-        background: #fff;
+        background: #eee;
         margin: 0;
         padding: 1em 0 1em 0;
         font-size: 0.8em;
@@ -388,12 +427,12 @@ br.clear {
             }
 
             #main > section.dark strong {
-                color: #fff;
+                color: #eee;
                 border-color: inherit;
             }
 
             #main > section.dark a {
-                color: #fff;
+                color: #eee;
                 border-color: inherit;
             }
 

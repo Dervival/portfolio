@@ -115,7 +115,7 @@ a {
 
     a:hover {
         color: #E27689;
-        border-bottom-color: rgba(255, 255, 255, 0);
+        border-bottom-color: rgba(239, 239, 239, 0);
     }
 
 sub {
@@ -419,7 +419,7 @@ br.clear {
 
         #main > section.dark {
             color: #ddd;
-            color: rgba(255, 255, 255, 0.75);
+            color: rgba(239, 239, 239, 0.75);
         }
 
             #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -437,7 +437,7 @@ br.clear {
             }
 
                 #main > section.dark a:hover {
-                    border-bottom-color: rgba(255, 255, 255, 0);
+                    border-bottom-color: rgba(239, 239, 239, 0);
                 }
 
         #main > section.cover {

@@ -160,10 +160,12 @@ br.clear {
     @media screen and (min-width: 961px) and (max-width: 1320px) {
         body, input, textarea, select {
             font-size: 16pt;
+            background-color: #990099;
         }
 
         .container {
             padding: 0 2em 0 2em;
+            background-color: #999090;
         }
             .container > p {
                 font-family: 'Poiret One', cursive;
@@ -179,6 +181,7 @@ br.clear {
     @media screen and (max-width: 960px) {
         html, body {
             overflow-x: hidden;
+            background-color: #009999;
         }
 
         body, input, textarea, select {
@@ -191,6 +194,7 @@ br.clear {
 
         .container {
             padding: 0 2em 0 2em;
+            background-color: #0077AA;
         }
             .container > p {
                 font-family: 'Poiret One', cursive;
@@ -203,6 +207,7 @@ br.clear {
     @media screen and (max-width: 736px) {
         body, input, textarea, select {
             font-size: 14pt;
+            background-color: #999900;
         }
 
         h2 {
@@ -213,6 +218,7 @@ br.clear {
 
         .container {
             padding: 0 15px 0 15px;
+            background-color: #099009;
         }
             
             .container > p {
@@ -238,6 +244,7 @@ br.clear {
 
         .container {
             width: 1200px;
+            background-color: #999090;
         }
             .container > p {
                 font-family: 'Poiret One', cursive;
@@ -250,6 +257,7 @@ br.clear {
 
         .container {
             width: 960px;
+            background-color: #999090;
         }
             .container > p {
                 font-family: 'Poiret One', cursive;
@@ -262,6 +270,7 @@ br.clear {
 
         .container {
             width: 100%;
+            background-color: #999090;
         }
             .container > p {
                 font-family: 'Poiret One', cursive;
@@ -274,6 +283,7 @@ br.clear {
 
         .container {
             width: 100%;
+            background-color: #0077AA;
         }
 
             .container > p {
@@ -287,6 +297,7 @@ br.clear {
 
         .container {
             width: 100%;
+            background-color: #099009;
         }
         
             .container > p {

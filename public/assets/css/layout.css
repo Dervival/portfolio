@@ -5,11 +5,14 @@
 */
 
 /* Ok, this totally can be refactored into CSS Grid at some point. Tinker with this after 301 if I want to actually use this as a portfolio page */
+/* For now let's keep it as flexbox */
 /* Row */
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    /* grid-template-columns: repeat(5, 8.33333%) auto auto repeat(5, 8.33333%);
+    grid-template-rows: 16.66666% 16.66666% auto auto 16.66666% 16.66666%; */
     box-sizing: border-box;
     align-items: stretch;
 }
@@ -22,7 +25,8 @@
         margin-bottom: 0;
     }
 
-    .row.aln-left {
+    /* Not using the alignment class */
+    /* .row.aln-left {
         justify-content: flex-start;
     }
 
@@ -44,109 +48,110 @@
 
     .row.aln-bottom {
         align-items: flex-end;
-    }
+    } */
 
-    .row > .imp {
+    /* Only used .row functionality is col-4, col-6, col-12-mobile */
+    /* .row > .imp {
         order: -1;
-    }
+    } */
 
-    .row > .col-1 {
+    /* .row > .col-1 {
         width: 8.3333333333%;
-    }
+    } */
 
-    .row > .off-1 {
+    /* .row > .off-1 {
         margin-left: 8.3333333333%;
-    }
+    } */
 
-    .row > .col-2 {
+    /* .row > .col-2 {
         width: 16.6666666667%;
-    }
+    } */
 
-    .row > .off-2 {
+    /* .row > .off-2 {
         margin-left: 16.6666666667%;
-    }
+    } */
 
-    .row > .col-3 {
+    /* .row > .col-3 {
         width: 25%;
-    }
+    } */
 
-    .row > .off-3 {
+    /* .row > .off-3 {
         margin-left: 25%;
-    }
+    } */
 
     .row > .col-4 {
         width: 33.3333333333%;
     }
 
-    .row > .off-4 {
+    /* .row > .off-4 {
         margin-left: 33.3333333333%;
-    }
+    } */
 
-    .row > .col-5 {
+    /* .row > .col-5 {
         width: 41.6666666667%;
-    }
+    } */
 
-    .row > .off-5 {
+    /* .row > .off-5 {
         margin-left: 41.6666666667%;
-    }
+    } */
 
     .row > .col-6 {
         width: 50%;
     }
 
-    .row > .off-6 {
+    /* .row > .off-6 {
         margin-left: 50%;
-    }
+    } */
 
-    .row > .col-7 {
+    /* .row > .col-7 {
         width: 58.3333333333%;
-    }
+    } */
 
-    .row > .off-7 {
+    /* .row > .off-7 {
         margin-left: 58.3333333333%;
-    }
+    } */
 
-    .row > .col-8 {
+    /* .row > .col-8 {
         width: 66.6666666667%;
-    }
+    } */
 
-    .row > .off-8 {
+    /* .row > .off-8 {
         margin-left: 66.6666666667%;
-    }
+    } */
 
-    .row > .col-9 {
+    /* .row > .col-9 {
         width: 75%;
-    }
+    } */
 
-    .row > .off-9 {
+    /* .row > .off-9 {
         margin-left: 75%;
-    }
+    } */
 
-    .row > .col-10 {
+    /* .row > .col-10 {
         width: 83.3333333333%;
-    }
+    } */
 
-    .row > .off-10 {
+    /* .row > .off-10 {
         margin-left: 83.3333333333%;
-    }
+    } */
 
-    .row > .col-11 {
+    /* .row > .col-11 {
         width: 91.6666666667%;
-    }
+    } */
 
-    .row > .off-11 {
+    /* .row > .off-11 {
         margin-left: 91.6666666667%;
-    }
+    } */
 
     .row > .col-12 {
         width: 100%;
     }
 
-    .row > .off-12 {
+    /* .row > .off-12 {
         margin-left: 100%;
-    }
+    } */
 
-    .row.gtr-0 {
+    /* .row.gtr-0 {
         margin-top: 0px;
         margin-left: 0px;
     }
@@ -161,9 +166,9 @@
 
             .row.gtr-0.gtr-uniform > * {
                 padding-top: 0px;
-            }
+            } */
 
-    .row.gtr-25 {
+    /* .row.gtr-25 {
         margin-top: -10px;
         margin-left: -10px;
     }
@@ -178,9 +183,9 @@
 
             .row.gtr-25.gtr-uniform > * {
                 padding-top: 10px;
-            }
+            } */
 
-    .row.gtr-50 {
+    /* .row.gtr-50 {
         margin-top: -20px;
         margin-left: -20px;
     }
@@ -195,7 +200,7 @@
 
             .row.gtr-50.gtr-uniform > * {
                 padding-top: 20px;
-            }
+            } */
 
     .row {
         margin-top: -40px;
@@ -206,15 +211,15 @@
             padding: 40px 0 0 40px;
         }
 
-        .row.gtr-uniform {
+        /* .row.gtr-uniform {
             margin-top: -40px;
         }
 
             .row.gtr-uniform > * {
                 padding-top: 40px;
-            }
+            } */
 
-    .row.gtr-150 {
+    /* .row.gtr-150 {
         margin-top: -60px;
         margin-left: -60px;
     }
@@ -229,9 +234,9 @@
 
             .row.gtr-150.gtr-uniform > * {
                 padding-top: 60px;
-            }
+            } */
 
-    .row.gtr-200 {
+    /* .row.gtr-200 {
         margin-top: -80px;
         margin-left: -80px;
     }
@@ -246,7 +251,7 @@
 
             .row.gtr-200.gtr-uniform > * {
                 padding-top: 80px;
-            }
+            } */
 
     @media screen and (min-width: 961px) and (max-width: 1880px) {
 

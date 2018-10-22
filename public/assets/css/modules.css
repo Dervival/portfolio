@@ -519,3 +519,16 @@ form ::-moz-focus-inner {
                 margin-top: 0;
             }
     }
+
+#introImageSlideShow{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    max-height: 50%;
+    max-width: 100%;
+}
+#introImageSlideShow > img{
+    max-height: 100%;
+    max-width: 100%;
+}
